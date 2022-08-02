@@ -1,0 +1,6 @@
+# 사이킷런 import 안되시는 분들은 아래 전체 실행
+# 실행 후 주피터에서 사이킷런 실행
+# 가상환경 만들기 전에 아래 먼저 진행하고 만들기
+conda update -n base conda
+python -m pip install --upgrade pip
+conda update --all
