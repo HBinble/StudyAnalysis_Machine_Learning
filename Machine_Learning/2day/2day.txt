@@ -1,0 +1,37 @@
+[분류기법]
+
+<분석방법>
+1. 데이터 수집
+2. 데이터 전처리
+3. 학습모델 생성
+4. 예측(테스트) fit
+5. 모델검정(평가) score(predict)
+6. 다른 데이터 테스트
+
+독립변수(input)
+종속변수(target)
+
+사이킷런 = 2차원리스트
+
+[2day]
+
+훈련데이터세트와 테스트데이터세트 만들기
+- 훈련데이터세트 : 독립변수의 훈련데이터와 target 데이터 생성
+- 테스트데이터세트 : 독립변수의 테스트데이터와 target 데이터 생성
+
+- train_data, train_target(train_x, train_y) : 훈련에 사용 
+	train_data : fit
+	train_tartget : fit
+- test_data, test_target(test_x, test_y) : 평가 및 예측에 사용
+	test_data : predict
+	test_target : score
+	
+
+[머신러닝 필요 수학]
+f(x) = y
+1차방정식(선형회귀분석) : y = ax + b
+2차방정식(다항회귀분석) : y = ax^2 + bx + c
+
+[머신러닝 공부법]
+1. 코드 공부
+2. 왜? (2차원인지, 과소/과대, 시나리오 흐름, 해석)
